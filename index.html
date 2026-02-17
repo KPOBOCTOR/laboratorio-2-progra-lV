@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Profesional - Eventos JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Eventos Interactivos con JavaScript</h1>
+    <p>Proyecto Profesional - Diseño moderno y dinámico</p>
+</header>
+
+<main class="grid">
+
+    
+    <section class="card">
+        <h3>Activador Dinámico</h3>
+        <button id="btnToggle">Cambiar Estado</button>
+        <p id="estadoToggle" class="msg">Estado: Inactivo</p>
+    </section>
+
+    
+    <section class="card">
+        <h3>Contador de Clicks</h3>
+        <button id="btnContador">Haz Click</button>
+        <p id="contadorClicks" class="msg">Clicks: 0</p>
+    </section>
+
+  
+    <section class="card">
+        <h3>Texto en Tiempo Real</h3>
+        <input type="text" id="inputLive" placeholder="Escribe algo...">
+        <p id="liveText" class="msg"></p>
+    </section>
+
+    
+    <section class="card">
+        <h3>Modo de Apariencia</h3>
+        <select id="themeSelect">
+            <option value="">Selecciona un tema</option>
+            <option value="claro">Claro</option>
+            <option value="oscuro">Oscuro</option>
+        </select>
+    </section>
+
+   
+    <section class="card">
+        <h3>Desbloqueo Secreto</h3>
+        <div id="secretBox" class="box especial">
+            🔒 Doble click aquí
+        </div>
+        <p id="secretMsg" class="msg"></p>
+    </section>
+
+    
+    <section class="card">
+        <h3>Mini Juego Drag & Drop</h3>
+        <div id="dragItem" draggable="true" class="drag-item">
+            🎯 Arrástrame
+        </div>
+        <div id="dropZone" class="drop-zone">
+            Suelta aquí
+        </div>
+        <p id="dragMsg" class="msg"></p>
+    </section>
+
+    
+    <section class="card">
+        <h3>Zoom con Rueda del Mouse</h3>
+        <div id="wheelBox" class="box wheel-box">
+            Usa la rueda aquí
+        </div>
+        <p id="wheelMsg" class="msg"></p>
+    </section>
+
+   
+    <section class="card">
+        <h3>Detección de Scroll</h3>
+        <div id="scrollArea" class="scroll-area">
+            Desplázate hacia abajo<br><br><br><br><br>
+            Sigue bajando<br><br><br><br><br>
+            Final del contenido
+        </div>
+        <p id="scrollMsg" class="msg"></p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    Proyecto Académico Profesional © 2026
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
